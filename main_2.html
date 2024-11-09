@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Картотека</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.06;
+            margin: 4px;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+
+        header {
+            background: #888;
+            color: #fff;
+            padding: 4px 0;
+            text-align: center;
+        }
+
+        main {
+            padding: 18px;
+            text-align: center;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 60px;
+        }
+
+        .card {
+            width: 300px;
+            background-color: burlywood;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            background-color: SandyBrown;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+        }
+
+        .info {
+            padding: 15px;
+            text-align: left;
+        }
+
+        .info h4, .info h3 {
+            margin: 0 0 10px 0;
+            font-size: 18px;
+        }
+
+        footer {
+            background: #888;
+            color: #fff;
+            text-align: center;
+            padding: 2px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Создание стилей в "Картотека пользователей"</h2>
+    </header>
+    <main>
+        <div class="card">
+            <img src="img_photo/johnny_depp.jpg" alt="Johnny Depp">
+            <div class="info">
+                <h4>Джон Кри́стофер (Джо́нни) Депп II</h4>
+                <p>Email: cgarcia@yahoo.ca</p>
+                <p>Дата рождения: 9 июня 1963</p>
+                <p>Город: Оуэнсборо, Кентукки</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img_photo/nicolas_cage.jpg" alt="Nicolas Cage">
+            <div class="info">
+                <h4>Ни́колас Кейдж</h4>
+                <p>Email: treeves@icloud.com</p>
+                <p>Дата рождения: 7 января 1964</p>
+                <p>Город: Лонг-Бич, Калифорния</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img_photo/hugh_jackman.jpg" alt="Hugh Jackman">
+            <div class="info">
+                <h4>Хью Майкл Дже́кман</h4>
+                <p>Email: tellis@me.com</p>
+                <p>Дата рождения: 12 октября 1968</p>
+                <p>Город: Сидней, Австралия</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img_photo/william_bradley_pitt.jpg" alt="Brad Pitt">
+            <div class="info">
+                <h4>Уи́льям Брэ́дли Питт</h4>
+                <p>Email: kewley@optonline.net</p>
+                <p>Дата рождения: 18 декабря 1963</p>
+                <p>Город: Шони, Оклахома</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Картотека пользователей © 2024</p>
+    </footer>
+</body>
+</html>

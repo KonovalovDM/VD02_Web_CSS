@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Картотека</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.06;
+            margin: 4px;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+
+        header {
+            background: #888;
+            color: #fff;
+            padding: 4px 0;
+            text-align: center;
+        }
+
+        main {
+            padding: 18px;
+            text-align: center;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 140px;
+            margin-bottom: 60px;
+        }
+
+        .card {
+            width: 400px;
+            height: 700px;
+            background-color: burlywood;
+            border-radius: 60px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+            background-color: Olive;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .photo img {
+            width: 80%;
+            height: auto;
+            border-radius: 18px;
+        }
+
+        .info {
+            font-family: Snell Roundhand, cursive;
+            font-size: 16px;
+            padding: 20px;
+        }
+
+        footer {
+            background: #888;
+            color: #fff;
+            text-align: center;
+            padding: 2px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Картотека пользователей</h1>
+    </header>
+
+    <main>
+        <div class="card">
+            <div class="photo">
+                <img src="img_photo/johnny_depp.jpg" width="100" alt="jonny_depp">
+              </div>
+            <div class="info">
+                <p>ФИО: Джон Кри́стофер (Джо́нни) Депп II</p>
+                <p>Email: cgarcia@yahoo.ca</p>
+                <p>Дата рождения: 9 июня 1963</p>
+                <p>Город: Оуэнсборо, Кентукки. США</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="photo">
+                <img src="img_photo/william_bradley_pitt.jpg" width="100" alt="jonny_depp">
+            </div>
+            <div class="info">
+                <p>ФИО: Уи́льям Брэ́дли Питт</p>
+                <p>Email: kewley@optonline.net</p>
+                <p>Дата рождения: 18 декабря 1963</p>
+                <p>Город: Шони, Оклахома, США</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="photo">
+                <img src="img_photo/hugh_jackman.jpg" width="100" alt="jonny_depp">
+            </div>
+            <div class="info">
+                <p>ФИО: Хью Майкл Дже́кман</p>
+                <p>Email: tellis@me.com</p>
+                <p>Дата рождения: 12 октября 1968</p>
+                <p>Город: Сидней, Новый Южный Уэльс, Австралия</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Все права защищены &copy; 2024</p>
+    </footer>
+</body>
+</html>
